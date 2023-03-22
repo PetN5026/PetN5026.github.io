@@ -1,0 +1,27 @@
+.navButton {
+  @apply text-neutral-500 p-2 text-center h-fit md:w-24 justify-center w-full;
+}
+.navButtonProjects {
+  @apply text-neutral-500 p-2 hover:rounded-md hover:cursor-pointer text-center flex justify-center flex-col;
+}
+.navText {
+  @apply hover:bg-gray-400 hover:rounded-md hover:cursor-pointer;
+}
+.carousel-buttons {
+  @apply p-2 bg-zinc-600 rounded-md shadow-xl bg-gradient-to-b from-zinc-600 via-zinc-400  to-zinc-600 hover:bg-zinc-300 hover:opacity-50;
+}
+
+.project-container {
+  @apply flex flex-col items-center bg-neutral-100 rounded-2xl shadow-xl max-w-screen-xl min-h-3/4;
+}
+
+.top-container {
+  @apply md:justify-center flex pt-8 bg-gray-200 pb-4;
+}
+
+.text {
+  @apply text-xs sm:text-lg text-center;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
