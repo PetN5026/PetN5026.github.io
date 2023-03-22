@@ -12,12 +12,28 @@ function App() {
     <div className="relative ">
       <div className="bg-slate-200 h-screen flex-col flex overflow-y-auto">
         <NavBar />
-        <Router>
+        <Router basename="/PetN5026.github.io">
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/AboutMe" element={<AboutMe />} />
-            <Route path="/Foodie" element={<FoodiPage />} />
-            <Route path="/FSATravels" element={<FSATravelsPage />} />
+            <Route
+              basename="/PetN5026.github.io"
+              path="/"
+              element={<HomePage />}
+            />
+            <Route
+              basename="/PetN5026.github.io"
+              path="/AboutMe"
+              element={<AboutMe />}
+            />
+            <Route
+              basename="//PetN5026.github.io"
+              path="/Foodie"
+              element={<FoodiPage />}
+            />
+            <Route
+              basename="/PetN5026.github.io"
+              path="/FSATravels"
+              element={<FSATravelsPage />}
+            />
           </Routes>
         </Router>
       </div>

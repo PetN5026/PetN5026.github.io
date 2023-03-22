@@ -34,13 +34,13 @@ function NavBar() {
           className={
             burgerOpen ? "navButton" : "hidden md:flex md:flex-grow-0 navButton"
           }
-          href="/"
+          href="/PetN5026.github.io/"
         >
           <p className="text-decoration-line: underline navText">Home</p>
         </a>
         <a
           className={burgerOpen ? "navButton " : "hidden md:flex navButton"}
-          href="/AboutMe"
+          href="/PetN5026.github.io/AboutMe"
         >
           <p className="text-decoration-line: underline  hover:bg-gray-400 hover:rounded-md hover:cursor-pointer ">
             About Me
@@ -81,7 +81,7 @@ function NavBar() {
                   : "hidden"
               }
             >
-              <a href="/Foodie">Foodie</a>
+              <a href="/PetN5026.github.io/Foodie">Foodie</a>
             </li>
             <li
               className={
@@ -90,7 +90,7 @@ function NavBar() {
                   : "hidden"
               }
             >
-              <a href="FSATravels">FSATravels</a>
+              <a href="/PetN5026.github.io/FSATravels">FSATravels</a>
             </li>
           </ul>
         </div>
