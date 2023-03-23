@@ -25,6 +25,49 @@ export const icons = {
   },
 };
 
+export const libraries = {
+  tailwind: {
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    text: "Tailwind",
+  },
+  react: {
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    text: "React",
+  },
+  javascript: {
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    text: "Javascript",
+  },
+  html5: {
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+    text: "HTML5",
+  },
+  css3: {
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    text: "CSS3",
+  },
+  github: {
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    text: "Github",
+  },
+  express: {
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
+    text: "Express",
+  },
+  sequelize: {
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
+    text: "Sequelize",
+  },
+  firebase: {
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg",
+    text: "Firebase",
+  },
+  node: {
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+    text: "Node",
+  },
+};
+
 export const foodiArray = [
   {
     link: "https://firebasestorage.googleapis.com/v0/b/foodie-1ba1a.appspot.com/o/Foodilogin.png?alt=media&token=afae9430-f388-4878-b208-749945a8a04b",

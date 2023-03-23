@@ -3,7 +3,7 @@ import Devicon from "./DevIcons";
 import { icons } from "../supplemental/supplemental";
 function HomePage() {
   return (
-    <div className=" w-screen bg-gray-200 shadow border pl-8 pr-8 pb-8 pt-8 flex flex-col items-center">
+    <div className=" w-screen bg-slate-200  pl-8 pr-8 pb-8 pt-8 flex flex-col items-center">
       <h2 className="text-3xl text-gray-700 font-bold mb-5">
         Welcome to my personal webpage!
       </h2>
@@ -20,7 +20,7 @@ function HomePage() {
         {/* add a div with flex to make that div itself flex */}
         <div
           id="devcon-container"
-          className="flex flex-row md:max-w-2xl flex-wrap justify-evenly max-w-xs"
+          className="flex flex-row md:max-w-2xl flex-wrap justify-evenly max-w-xs bg-gray-200"
         >
           {Object.keys(icons).map((k) => {
             return (
@@ -29,7 +29,7 @@ function HomePage() {
           })}
         </div>
       </div>
-      <p>placeholder</p>
+      {/* <p>placeholder</p> */}
     </div>
   );
 }
