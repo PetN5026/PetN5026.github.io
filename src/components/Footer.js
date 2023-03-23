@@ -21,7 +21,6 @@ function Footer() {
           github
         </a>
       </div>
-      <p>peterng.918@gmail.com</p>
     </div>
   );
 }
