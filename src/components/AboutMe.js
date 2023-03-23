@@ -18,7 +18,7 @@ function AboutMe() {
         /> */}
         <div
           id="library-container"
-          className="flex flex-row md:max-w-2xl flex-wrap justify-evenly max-w-xs bg-gray-200"
+          className="  flex flex-row md:max-w-md flex-wrap justify-evenly max-w-xs bg-gray-200"
         >
           {Object.keys(libraries).map((obj) => {
             return (
