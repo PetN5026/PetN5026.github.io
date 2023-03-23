@@ -28,7 +28,7 @@ function NavBar() {
       </div>
       <div
         id="navHolder"
-        className="justify-center md:justify-start bg-gray-300 flex flex-col md:flex-row"
+        className="justify-center w-screen md:justify-start bg-gray-300 flex flex-col md:flex-row"
       >
         <a
           className={
