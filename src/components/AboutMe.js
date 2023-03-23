@@ -8,8 +8,10 @@ function AboutMe() {
       className="md:justify-center md:max-w-aboutmeTopContainer flex pt-8 bg-gray-200 justify-center flex-wrap"
     >
       <div className="about-me-inner-container">
-        <p className="md:h-aboutme max-w-md w-aboutmeW">a</p>
-        <div className="md:h-aboutme max-w-md w-aboutmeW">a</div>
+        <p className="md:h-aboutme max-w-md w-aboutmeW">
+          Elevator pitch goes here?
+        </p>
+        <div className="md:h-aboutme max-w-md w-aboutmeW">Some pics here?</div>
       </div>
       <div className="about-me-inner-container">
         <div className="flex flex-col md:max-w-md md:h-aboutme max-w-xs justify-center">
