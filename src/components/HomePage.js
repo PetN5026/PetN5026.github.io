@@ -5,13 +5,13 @@ function HomePage() {
   return (
     <div className=" w-screen bg-slate-200  pl-8 pr-8 pb-8 pt-8 flex flex-col items-center">
       <h2 className="text-3xl text-gray-700 font-bold mb-5">
-        Welcome to my personal webpage!
+        Hey there, Welcome to my personal webpage!
       </h2>
       <p className="text-gray-500 max-w-3xl text">
-        This is a webpage to show off what I learned from my bootcamp and self
-        study afterwards. Feel Free to click on any links in the navbar as well
-        as adjust the browser size or view it on a mobile device because the
-        page is responsive :)
+        This is a webpage to go over what I've learned about web development.
+        Feel Free to click on any links in the navbar as well as adjust the
+        browser size or view it on a mobile device because the page is
+        responsive :)
       </p>
       <p className="text mt-4">
         This website directly uses the following techstack

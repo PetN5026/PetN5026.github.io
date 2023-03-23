@@ -22,6 +22,10 @@
 .text {
   @apply text-xs sm:text-lg text-center;
 }
+
+.about-me-inner-container {
+  @apply flex flex-col md:flex-row overflow-y-auto items-center max-w-4xl;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

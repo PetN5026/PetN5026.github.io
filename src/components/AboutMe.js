@@ -3,12 +3,25 @@ import { libraries } from "../supplemental/supplemental";
 import Devicon from "./DevIcons";
 function AboutMe() {
   return (
-    <div className="md:justify-center flex pt-8 bg-gray-200 justify-center">
-      <div
-        id="about-container"
-        className="flex flex-col md:flex-row overflow-y-auto items-center max-w-4xl"
-      >
-        <p className=" m-2 p-2">Hey there, welcome to my website.</p>
+    <div
+      id="about-container"
+      className="md:justify-center md:max-w-aboutmeTopContainer flex pt-8 bg-gray-200 justify-center flex-wrap"
+    >
+      <div className="about-me-inner-container">
+        <p className="md:h-aboutme max-w-md w-aboutmeW">a</p>
+        <div className="md:h-aboutme max-w-md w-aboutmeW">a</div>
+      </div>
+      <div className="about-me-inner-container">
+        <div className="flex flex-col md:max-w-md md:h-aboutme max-w-xs justify-center">
+          <p className=" m-2 p-2 text-center">
+            Hello, here are the technology that I've used in the
+            past.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+          </p>
+        </div>
         {/* <img
           className="m-2 p-2 flex-shrink-0 flex-grow-0 h-auto"
           src="https://picsum.photos/id/237/200/300"
@@ -18,7 +31,7 @@ function AboutMe() {
         /> */}
         <div
           id="library-container"
-          className="  flex flex-row md:max-w-md flex-wrap justify-evenly max-w-xs bg-gray-200"
+          className="  flex flex-row md:max-w-md md:h-aboutme flex-wrap justify-evenly max-w-xs bg-gray-200"
         >
           {Object.keys(libraries).map((obj) => {
             return (

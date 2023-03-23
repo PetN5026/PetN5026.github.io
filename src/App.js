@@ -10,7 +10,10 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="relative ">
-      <div className="bg-slate-200 h-screen flex-col flex overflow-y-auto">
+      <div
+        id="all-container"
+        className="bg-slate-200 h-screen flex-col flex overflow-y-auto items-center"
+      >
         <NavBar />
         <Router>
           <Routes>
