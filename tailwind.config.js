@@ -4,17 +4,24 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
-        "almost-full": "90%",
-        aboutmeTopContainer: "896px",
+        "almost-full": "80%",
+      },
+      maxHeight: {
+        "carousel-container": "440px",
+        "carousel-imgs": "400px",
       },
       minHeight: {
         "3/4": "85vh",
       },
-      height: {
-        aboutme: "512px",
-      },
       width: {
-        aboutmeW: "448px",
+        ones: "896",
+        five: "5%",
+      },
+      height: {
+        eighty: "70%",
+      },
+      inset: {
+        twelve: "18%",
       },
     },
   },
