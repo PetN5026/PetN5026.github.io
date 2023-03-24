@@ -1,9 +1,18 @@
 import React from "react";
 import { useState } from "react";
-
+import { useSwipeable } from "react-swipeable";
 function Carousel({ imgArr }) {
   const [imgNum, setImgNum] = useState(0);
-
+  const handlers = useSwipeable({
+    onSwipedLeft: (eventData) => {
+      console.log("User Swiped left!", eventData);
+      increment();
+    },
+    onSwipedRight: (eventData) => {
+      console.log("user swiped right", eventData);
+      decrement();
+    },
+  });
   function decrement() {
     setImgNum((imgNum) => (imgNum - 1 + imgArr.length) % imgArr.length);
   }

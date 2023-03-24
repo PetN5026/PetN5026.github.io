@@ -8,11 +8,11 @@
   @apply hover:bg-gray-400 hover:rounded-md hover:cursor-pointer;
 }
 .carousel-buttons {
-  @apply p-2 bg-zinc-600 rounded-md shadow-xl bg-gradient-to-b from-zinc-600 via-zinc-400  to-zinc-600 hover:bg-zinc-300 hover:opacity-50;
+  @apply bg-zinc-600 shadow-xl bg-gradient-to-b from-zinc-600 via-zinc-400  to-zinc-600 hover:bg-zinc-300 opacity-25 hover:opacity-50 h-eighty w-five top-twelve;
 }
 
 .project-container {
-  @apply flex flex-col items-center bg-neutral-100 rounded-2xl shadow-xl max-w-screen-xl min-h-3/4;
+  @apply flex flex-col items-center bg-neutral-100 rounded-2xl shadow-xl max-w-4xl min-h-3/4;
 }
 
 .top-container {
@@ -23,9 +23,18 @@
   @apply text-xs sm:text-lg text-center;
 }
 
-.about-me-inner-container {
-  @apply flex flex-col md:flex-row overflow-y-auto items-center max-w-4xl;
+.slide-active {
+  @apply opacity-100 transition duration-200 ease-in max-w-4xl max-h-carousel-imgs;
 }
+
+.slide {
+  @apply opacity-0 transition duration-200 ease-in transform scale-95 max-w-4xl max-h-carousel-imgs;
+}
+
+/* .image {
+  width: 1200;
+  height: 1200;
+} */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
