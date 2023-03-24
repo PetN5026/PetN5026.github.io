@@ -7,15 +7,19 @@ function AboutMe() {
       id="about-container"
       className="md:justify-center md:max-w-aboutmeTopContainer flex pt-8 bg-gray-200 justify-center flex-wrap"
     >
-      <div className="about-me-inner-container">
-        <p className="md:h-aboutme max-w-md w-aboutmeW">
-          Elevator pitch goes here?
+      <div className="about-me-inner-container ">
+        <p className="m-2 p-2 text-center text">
+          Elevator pitch goes here? Lorem ipsum dolor sit amet, vim ferri congue
+          ponderum ut, ei quot nulla usu, vivendo gloriatur nam ex? Per et
+          noster voluptua, sumo pertinax no pri, fugit sensibus ea vel? Quo et
+          case minim dicant? Et ludus intellegat vim, recusabo persecuti usu et.
+          Has pericula signiferumque ea, ad iriure definitionem per? Te nobis
+          delenit vel, eam odio inani similique te. Viris gloriatur complectitur
         </p>
-        <div className="md:h-aboutme max-w-md w-aboutmeW">Some pics here?</div>
       </div>
       <div className="about-me-inner-container">
         <div className="flex flex-col md:max-w-md md:h-aboutme max-w-xs justify-center">
-          <p className=" m-2 p-2 text-center">
+          <p className=" m-2 p-2 text-center text">
             Hello, here are the technology that I've used in the
             past.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
             aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
