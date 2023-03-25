@@ -9,23 +9,18 @@ function AboutMe() {
     >
       <div className="about-me-inner-container ">
         <p className="m-2 p-2 text-center text">
-          Elevator pitch goes here? Lorem ipsum dolor sit amet, vim ferri congue
-          ponderum ut, ei quot nulla usu, vivendo gloriatur nam ex? Per et
-          noster voluptua, sumo pertinax no pri, fugit sensibus ea vel? Quo et
-          case minim dicant? Et ludus intellegat vim, recusabo persecuti usu et.
-          Has pericula signiferumque ea, ad iriure definitionem per? Te nobis
-          delenit vel, eam odio inani similique te. Viris gloriatur complectitur
+          Lorem ipsum dolor sit amet, vim ferri congue ponderum ut, ei quot
+          nulla usu, vivendo gloriatur nam ex? Per et noster voluptua, sumo
+          pertinax no pri, fugit sensibus ea vel? Quo et case minim dicant? Et
+          ludus intellegat vim, recusabo persecuti usu et. Has pericula
+          signiferumque ea, ad iriure definitionem per? Te nobis delenit vel,
+          eam odio inani similique te. Viris gloriatur complectitur
         </p>
       </div>
       <div className="about-me-inner-container">
         <div className="flex flex-col md:max-w-md md:h-aboutme max-w-xs justify-center">
           <p className=" m-2 p-2 text-center text">
-            Hello, here are the technology that I've used in the
-            past.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            Hello, here are the technology that I've used in the past.
           </p>
         </div>
         {/* <img

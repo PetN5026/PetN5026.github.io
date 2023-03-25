@@ -15,10 +15,12 @@ function Carousel({ imgArr }) {
   });
   function decrement() {
     setImgNum((imgNum) => (imgNum - 1 + imgArr.length) % imgArr.length);
+    console.log("decremented");
   }
 
   function increment() {
     setImgNum((imgNum) => (imgNum + 1) % imgArr.length);
+    console.log("increment");
   }
   return (
     <div className="flex flex-col items-center pt-8 pb-2 max-w-ones max-h-carousel-container relative">
@@ -29,15 +31,18 @@ function Carousel({ imgArr }) {
           <div
             className={index === imgNum ? "slide-active" : "slide absolute"}
             key={index}
+            {...handlers}
           >
             {
               <img
-                {...handlers}
                 src={img.link}
                 alt="test"
                 className="image max-h-carousel-imgs md:w-ones md:max-w-4xl"
                 width={1200}
                 height={500}
+                onClick={() => {
+                  window.open(imgArr[imgNum].link, "_blank", "noreferrer");
+                }}
               />
             }
           </div>
@@ -62,7 +67,7 @@ function Carousel({ imgArr }) {
           RIGHT
         </button> */}
 
-      <div className="bg-slate-50 carousel-buttons absolute left-0">
+      <div className="bg-slate-50 carousel-buttons absolute left-0 z-20">
         <button
           id="caro-left"
           className="absolute  left-0 opacity-100 h-full w-full"
@@ -85,7 +90,7 @@ function Carousel({ imgArr }) {
         </button>
       </div>
 
-      <div className="bg-slate-50  absolute carousel-buttons right-0">
+      <div className="bg-slate-50  absolute carousel-buttons right-0 z-20">
         <button
           id="caro-right"
           className="absolute right-0 opacity-10 w-full h-full"
