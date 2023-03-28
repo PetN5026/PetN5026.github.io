@@ -20,7 +20,7 @@
 }
 
 .text {
-  @apply text-xs sm:text-lg text-center;
+  @apply text-xs sm:text-lg text-center md:text-xl;
 }
 
 .slide-active {
@@ -32,7 +32,7 @@
 }
 
 .about-me-inner-container {
-  @apply opacity-50 flex flex-col md:max-w-md md:h-aboutme max-w-xs justify-center md:w-aboutme;
+  @apply flex flex-col md:max-w-md md:h-aboutme max-w-xs  md:w-aboutme;
 }
 
 /* .image {
