@@ -12,7 +12,7 @@
 }
 
 .project-container {
-  @apply flex flex-col items-center bg-neutral-100 rounded-2xl shadow-xl max-w-4xl min-h-3/4;
+  @apply flex flex-col items-center bg-neutral-100 rounded-2xl shadow-xl max-w-4xl pb-20;
 }
 
 .top-container {
@@ -32,7 +32,7 @@
 }
 
 .about-me-inner-container {
-  @apply flex flex-col md:max-w-md md:h-aboutme max-w-xs  md:w-aboutme;
+  @apply flex flex-col md:max-w-md md:h-aboutme max-w-xs  md:w-aboutme pb-4;
 }
 
 /* .image {

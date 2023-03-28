@@ -4,7 +4,7 @@ import { icons } from "../supplemental/supplemental";
 function HomePage() {
   return (
     <div className=" w-screen bg-slate-200  pl-8 pr-8 pb-8 pt-8 flex flex-col items-center">
-      <h2 className="text-3xl text-gray-700 font-bold mb-5">
+      <h2 className="text-3xl text-gray-700 font-bold mb-5 text-center">
         Hey there, Welcome to my personal webpage!
       </h2>
       <p className="text-gray-500 max-w-3xl text">

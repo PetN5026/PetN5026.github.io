@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-gray-300 flex sm:absolute left-0 right-0 bottom-0 justify-around">
+    <div className="bg-gray-300 flex absolute left-0 right-0 bottom-0 justify-around">
       <div className="hover:text-blue-800">
         <a
           href="https://www.linkedin.com/in/peterjng/"

@@ -23,8 +23,8 @@ function App() {
             <Route path="/FSATravels" element={<FSATravelsPage />} />
           </Routes>
         </Router>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

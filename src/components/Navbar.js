@@ -56,7 +56,7 @@ function NavBar() {
             setProjectOpen((prev) => !prev);
           }}
         >
-          <p className="text-decoration-line: underline hover:bg-gray-400 hover:rounded-md md:w-24 ">
+          <p className="text-decoration-line: underline hover:bg-gray-400 hover:rounded-md cursor-pointer md:w-24 ">
             Projects
           </p>
           {/* <svg
