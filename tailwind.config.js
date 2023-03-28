@@ -11,7 +11,7 @@ module.exports = {
         "carousel-imgs": "400px",
       },
       minHeight: {
-        "3/4": "85vh",
+        "3/4": "75vh",
       },
       width: {
         ones: "896",
