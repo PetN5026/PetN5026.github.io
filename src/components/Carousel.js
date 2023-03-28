@@ -36,7 +36,7 @@ function Carousel({ imgArr }) {
             {
               <img
                 src={img.link}
-                alt="test"
+                alt="carousel pic"
                 className="image max-h-carousel-imgs md:w-ones md:max-w-4xl"
                 width={1200}
                 height={500}

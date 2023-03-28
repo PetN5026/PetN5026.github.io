@@ -46,9 +46,9 @@ export const libraries = {
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     text: "CSS3",
   },
-  github: {
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-    text: "Github",
+  git: {
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    text: "Git",
   },
   express: {
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",

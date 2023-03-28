@@ -31,6 +31,10 @@
   @apply opacity-0 transition duration-200 ease-in transform scale-95 max-w-4xl max-h-carousel-imgs;
 }
 
+.about-me-inner-container {
+  @apply opacity-50 flex flex-col md:max-w-md md:h-aboutme max-w-xs justify-center md:w-aboutme;
+}
+
 /* .image {
   width: 1200;
   height: 1200;
